@@ -4,7 +4,7 @@ import io.github.wwhysohard.samplesearchusage.controller.BookController;
 import io.github.wwhysohard.samplesearchusage.model.Book;
 import io.github.wwhysohard.samplesearchusage.response.BookResponse;
 import io.github.wwhysohard.samplesearchusage.service.BookService;
-import io.github.wwhysohard.samplesearchusage.specification.impl.BookSpecification;
+import io.github.wwhysohard.samplesearchusage.specification.BookSpecification;
 import io.github.wwhysohard.search.dto.SearchRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

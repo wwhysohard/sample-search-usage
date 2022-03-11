@@ -4,7 +4,7 @@ import io.github.wwhysohard.samplesearchusage.controller.AuthorController;
 import io.github.wwhysohard.samplesearchusage.model.Author;
 import io.github.wwhysohard.samplesearchusage.response.AuthorResponse;
 import io.github.wwhysohard.samplesearchusage.service.AuthorService;
-import io.github.wwhysohard.samplesearchusage.specification.impl.AuthorSpecification;
+import io.github.wwhysohard.samplesearchusage.specification.AuthorSpecification;
 import io.github.wwhysohard.search.dto.SearchRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
