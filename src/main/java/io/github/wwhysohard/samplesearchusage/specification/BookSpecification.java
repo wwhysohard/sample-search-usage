@@ -12,7 +12,7 @@ import javax.persistence.criteria.Root;
 public class BookSpecification extends GenericSpecification<Book> {
 
     public BookSpecification(SearchRequest request) {
-        super(request, Book.class);
+        super(request, Book.class, false);
     }
 
     @Override
